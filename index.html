@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+.heart {
+	width: 200px;
+	height: 200px;
+	top: 50%;
+	left: 50%;
+	z-index: 1;
+	display: block;
+	position: absolute;
+	transform: translate(-50%,-50%);
+	animation: heart 1s ease infinite
+}
+
+@keyframes heart {
+	96% {
+		transform: translate(-50%,-50%) scale(.8,.8)
+	}
+	100% {
+		transform: translate(-50%,-50%) scale(1,1)
+	}
+}
+
+.heart div {
+	background: #ff0000;
+	width: 71px;
+	height: 126px;
+	top: 40px;
+	display: block;
+	position: absolute;
+	border-radius: 50%
+	}
+
+.left {
+	left: 45px;
+	transform: rotate(330deg);
+}
+
+.right {
+	right: 45px;
+	transform: rotate(30deg);
+}
+
+    </style>
+</head>
+<body bgcolor="black" align="center">
+    <h1 style="color: yellow; font-size: 100px; font-weight: bold;">Chúc vợ yêu sinh nhật vui vẻ, luôn xinh đẹp rạng ngời </h1>
+    <p style="color: #ff0000; font-size: 100px; font-weight: bold;">&#10084; I LOVE YOU &#10084;</p>
+        <div class="heart">
+            <div class="left"></div>
+            <div class="right"></div>
+          </div>
+    <a href="./HPBD.html"><img src="./123.jpg" alt=""></a>
+</body>
+</html>
